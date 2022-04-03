@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.1020" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-03T08:42:51" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_authentication_middleware_basics" timestamp="2022-04-03T08:42:51" tests="7" file="/home/jesseinvent/Documents/PROJECTS/Tests/7f87e396-9a3a-4752-97e3-5c73c92bc894/test/index.spec.js" time="1.1020" failures="0">
+    <testcase name="express_authentication_middleware_basics Should generate an API key and add it to file" time="0.5060" classname="Should generate an API key and add it to file">
+    </testcase>
+    <testcase name="express_authentication_middleware_basics Should generate 5 unique API Keys" time="0.5030" classname="Should generate 5 unique API Keys">
+    </testcase>
+    <testcase name="express_authentication_middleware_basics Should return the API Key back in response" time="0.0420" classname="Should return the API Key back in response">
+    </testcase>
+    <testcase name="express_authentication_middleware_basics Should send a 401 if the x-api-key header is not present" time="0.0070" classname="Should send a 401 if the x-api-key header is not present">
+    </testcase>
+    <testcase name="express_authentication_middleware_basics Should send a 401 if the x-api-key is invalid" time="0.0060" classname="Should send a 401 if the x-api-key is invalid">
+    </testcase>
+    <testcase name="express_authentication_middleware_basics Should validate header for protected routes" time="0.0220" classname="Should validate header for protected routes">
+    </testcase>
+    <testcase name="express_authentication_middleware_basics Should not require auth headers for unprotected routes" time="0.0160" classname="Should not require auth headers for unprotected routes">
+    </testcase>
+  </testsuite>
+</testsuites>
